@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B184542D1C4DE95B003D71F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B184542C1C4DE95B003D71F7 /* main.m */; };
+		B18454301C4DE95B003D71F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B184542F1C4DE95B003D71F7 /* AppDelegate.m */; };
+		B18454331C4DE95B003D71F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18454321C4DE95B003D71F7 /* ViewController.m */; };
+		B18454361C4DE95B003D71F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B18454341C4DE95B003D71F7 /* Main.storyboard */; };
+		B18454381C4DE95B003D71F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B18454371C4DE95B003D71F7 /* Assets.xcassets */; };
+		B184543B1C4DE95B003D71F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B18454391C4DE95B003D71F7 /* LaunchScreen.storyboard */; };
+		B18454461C4DE95B003D71F7 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B18454451C4DE95B003D71F7 /* ______Tests.m */; };
+		B18454511C4DE95B003D71F7 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B18454501C4DE95B003D71F7 /* ______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B18454421C4DE95B003D71F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B18454201C4DE95B003D71F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B18454271C4DE95B003D71F7;
+			remoteInfo = "百望电子发票";
+		};
+		B184544D1C4DE95B003D71F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B18454201C4DE95B003D71F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B18454271C4DE95B003D71F7;
+			remoteInfo = "百望电子发票";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B18454281C4DE95B003D71F7 /* 百望电子发票.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百望电子发票.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B184542C1C4DE95B003D71F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B184542E1C4DE95B003D71F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B184542F1C4DE95B003D71F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B18454311C4DE95B003D71F7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B18454321C4DE95B003D71F7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B18454351C4DE95B003D71F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B18454371C4DE95B003D71F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B184543A1C4DE95B003D71F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B184543C1C4DE95B003D71F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B18454411C4DE95B003D71F7 /* 百望电子发票Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百望电子发票Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B18454451C4DE95B003D71F7 /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
+		B18454471C4DE95B003D71F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B184544C1C4DE95B003D71F7 /* 百望电子发票UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百望电子发票UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B18454501C4DE95B003D71F7 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
+		B18454521C4DE95B003D71F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B18454251C4DE95B003D71F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B184543E1C4DE95B003D71F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18454491C4DE95B003D71F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B184541F1C4DE95B003D71F7 = {
+			isa = PBXGroup;
+			children = (
+				B184542A1C4DE95B003D71F7 /* 百望电子发票 */,
+				B18454441C4DE95B003D71F7 /* 百望电子发票Tests */,
+				B184544F1C4DE95B003D71F7 /* 百望电子发票UITests */,
+				B18454291C4DE95B003D71F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B18454291C4DE95B003D71F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B18454281C4DE95B003D71F7 /* 百望电子发票.app */,
+				B18454411C4DE95B003D71F7 /* 百望电子发票Tests.xctest */,
+				B184544C1C4DE95B003D71F7 /* 百望电子发票UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B184542A1C4DE95B003D71F7 /* 百望电子发票 */ = {
+			isa = PBXGroup;
+			children = (
+				B184542E1C4DE95B003D71F7 /* AppDelegate.h */,
+				B184542F1C4DE95B003D71F7 /* AppDelegate.m */,
+				B18454311C4DE95B003D71F7 /* ViewController.h */,
+				B18454321C4DE95B003D71F7 /* ViewController.m */,
+				B18454341C4DE95B003D71F7 /* Main.storyboard */,
+				B18454371C4DE95B003D71F7 /* Assets.xcassets */,
+				B18454391C4DE95B003D71F7 /* LaunchScreen.storyboard */,
+				B184543C1C4DE95B003D71F7 /* Info.plist */,
+				B184542B1C4DE95B003D71F7 /* Supporting Files */,
+			);
+			path = "百望电子发票";
+			sourceTree = "<group>";
+		};
+		B184542B1C4DE95B003D71F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B184542C1C4DE95B003D71F7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B18454441C4DE95B003D71F7 /* 百望电子发票Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B18454451C4DE95B003D71F7 /* ______Tests.m */,
+				B18454471C4DE95B003D71F7 /* Info.plist */,
+			);
+			path = "百望电子发票Tests";
+			sourceTree = "<group>";
+		};
+		B184544F1C4DE95B003D71F7 /* 百望电子发票UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B18454501C4DE95B003D71F7 /* ______UITests.m */,
+				B18454521C4DE95B003D71F7 /* Info.plist */,
+			);
+			path = "百望电子发票UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B18454271C4DE95B003D71F7 /* 百望电子发票 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B18454551C4DE95B003D71F7 /* Build configuration list for PBXNativeTarget "百望电子发票" */;
+			buildPhases = (
+				B18454241C4DE95B003D71F7 /* Sources */,
+				B18454251C4DE95B003D71F7 /* Frameworks */,
+				B18454261C4DE95B003D71F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "百望电子发票";
+			productName = "百望电子发票";
+			productReference = B18454281C4DE95B003D71F7 /* 百望电子发票.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B18454401C4DE95B003D71F7 /* 百望电子发票Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B18454581C4DE95B003D71F7 /* Build configuration list for PBXNativeTarget "百望电子发票Tests" */;
+			buildPhases = (
+				B184543D1C4DE95B003D71F7 /* Sources */,
+				B184543E1C4DE95B003D71F7 /* Frameworks */,
+				B184543F1C4DE95B003D71F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B18454431C4DE95B003D71F7 /* PBXTargetDependency */,
+			);
+			name = "百望电子发票Tests";
+			productName = "百望电子发票Tests";
+			productReference = B18454411C4DE95B003D71F7 /* 百望电子发票Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B184544B1C4DE95B003D71F7 /* 百望电子发票UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B184545B1C4DE95B003D71F7 /* Build configuration list for PBXNativeTarget "百望电子发票UITests" */;
+			buildPhases = (
+				B18454481C4DE95B003D71F7 /* Sources */,
+				B18454491C4DE95B003D71F7 /* Frameworks */,
+				B184544A1C4DE95B003D71F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B184544E1C4DE95B003D71F7 /* PBXTargetDependency */,
+			);
+			name = "百望电子发票UITests";
+			productName = "百望电子发票UITests";
+			productReference = B184544C1C4DE95B003D71F7 /* 百望电子发票UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B18454201C4DE95B003D71F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = lixizhi;
+				TargetAttributes = {
+					B18454271C4DE95B003D71F7 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					B18454401C4DE95B003D71F7 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = B18454271C4DE95B003D71F7;
+					};
+					B184544B1C4DE95B003D71F7 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = B18454271C4DE95B003D71F7;
+					};
+				};
+			};
+			buildConfigurationList = B18454231C4DE95B003D71F7 /* Build configuration list for PBXProject "百望电子发票" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B184541F1C4DE95B003D71F7;
+			productRefGroup = B18454291C4DE95B003D71F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B18454271C4DE95B003D71F7 /* 百望电子发票 */,
+				B18454401C4DE95B003D71F7 /* 百望电子发票Tests */,
+				B184544B1C4DE95B003D71F7 /* 百望电子发票UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B18454261C4DE95B003D71F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B184543B1C4DE95B003D71F7 /* LaunchScreen.storyboard in Resources */,
+				B18454381C4DE95B003D71F7 /* Assets.xcassets in Resources */,
+				B18454361C4DE95B003D71F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B184543F1C4DE95B003D71F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B184544A1C4DE95B003D71F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B18454241C4DE95B003D71F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18454331C4DE95B003D71F7 /* ViewController.m in Sources */,
+				B18454301C4DE95B003D71F7 /* AppDelegate.m in Sources */,
+				B184542D1C4DE95B003D71F7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B184543D1C4DE95B003D71F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18454461C4DE95B003D71F7 /* ______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18454481C4DE95B003D71F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18454511C4DE95B003D71F7 /* ______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B18454431C4DE95B003D71F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B18454271C4DE95B003D71F7 /* 百望电子发票 */;
+			targetProxy = B18454421C4DE95B003D71F7 /* PBXContainerItemProxy */;
+		};
+		B184544E1C4DE95B003D71F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B18454271C4DE95B003D71F7 /* 百望电子发票 */;
+			targetProxy = B184544D1C4DE95B003D71F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B18454341C4DE95B003D71F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B18454351C4DE95B003D71F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B18454391C4DE95B003D71F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B184543A1C4DE95B003D71F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B18454531C4DE95B003D71F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B18454541C4DE95B003D71F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B18454561C4DE95B003D71F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "百望电子发票/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.baiwang.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B18454571C4DE95B003D71F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "百望电子发票/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.baiwang.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B18454591C4DE95B003D71F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "百望电子发票Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.baiwang.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/百望电子发票.app/百望电子发票";
+			};
+			name = Debug;
+		};
+		B184545A1C4DE95B003D71F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "百望电子发票Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.baiwang.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/百望电子发票.app/百望电子发票";
+			};
+			name = Release;
+		};
+		B184545C1C4DE95B003D71F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "百望电子发票UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.baiwang.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "百望电子发票";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B184545D1C4DE95B003D71F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "百望电子发票UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.baiwang.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "百望电子发票";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B18454231C4DE95B003D71F7 /* Build configuration list for PBXProject "百望电子发票" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B18454531C4DE95B003D71F7 /* Debug */,
+				B18454541C4DE95B003D71F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B18454551C4DE95B003D71F7 /* Build configuration list for PBXNativeTarget "百望电子发票" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B18454561C4DE95B003D71F7 /* Debug */,
+				B18454571C4DE95B003D71F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B18454581C4DE95B003D71F7 /* Build configuration list for PBXNativeTarget "百望电子发票Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B18454591C4DE95B003D71F7 /* Debug */,
+				B184545A1C4DE95B003D71F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B184545B1C4DE95B003D71F7 /* Build configuration list for PBXNativeTarget "百望电子发票UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B184545C1C4DE95B003D71F7 /* Debug */,
+				B184545D1C4DE95B003D71F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B18454201C4DE95B003D71F7 /* Project object */;
+}
