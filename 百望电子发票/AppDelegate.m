@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "BWNavigationViewController.h"
+#import "BWHomeViewController.h"
+#import "BWSettingViewController.h"
+#import "REFrostedViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +21,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+   
+
+    
     return YES;
 }
 

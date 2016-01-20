@@ -1,25 +1,169 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="19V-DA-sJe">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Home View Controller-->
+        <scene sceneID="my8-CU-G2e">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BWHomeViewController" id="XVE-lr-eEd" customClass="BWHomeViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="L8z-vk-QUS"/>
+                        <viewControllerLayoutGuide type="bottom" id="8qw-oO-ZyG"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="SLE-5t-Y4U">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="DZk-26-Anw">
+                                <rect key="frame" x="4" y="64" width="592" height="487"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TKy-Ps-2Jx">
+                                <rect key="frame" x="0.0" y="551" width="600" height="49"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h6M-lm-3II">
+                                        <rect key="frame" x="192" y="9" width="66" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="金钱" image="ic_money_normal.png">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="selected" image="ic_money_active.png">
+                                            <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="jinqianAction:" destination="XVE-lr-eEd" eventType="touchUpInside" id="PRr-7E-gre"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WXo-Ce-tOp">
+                                        <rect key="frame" x="33" y="0.0" width="84" height="48"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="筛选" image="ic_filter_normal.png">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="selected" image="ic_filter_active.png">
+                                            <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="shaixuanAction:" destination="XVE-lr-eEd" eventType="touchUpInside" id="V8E-J0-EYc"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ql-Y0-4tw">
+                                        <rect key="frame" x="342" y="9" width="66" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="时间" image="ic_time_normal.png">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="selected" image="ic_time_activel.png">
+                                            <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="shijianAction:" destination="XVE-lr-eEd" eventType="touchUpInside" id="56C-WQ-dQL"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ySx-lg-Gco">
+                                        <rect key="frame" x="467" y="8" width="102" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="更多排序" image="ic_more_normal.png"/>
+                                        <state key="selected" image="ic_more_active.png">
+                                            <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="paixuAction:" destination="XVE-lr-eEd" eventType="touchUpInside" id="Xlh-jp-GQ6"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.26442248774509808" green="0.26336923132739937" blue="0.26381075045149638" alpha="0.39000000000000001" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="h6M-lm-3II" firstAttribute="height" secondItem="WXo-Ce-tOp" secondAttribute="height" id="1Pg-cU-47G"/>
+                                    <constraint firstItem="8ql-Y0-4tw" firstAttribute="width" secondItem="WXo-Ce-tOp" secondAttribute="width" id="3r2-55-57z"/>
+                                    <constraint firstItem="h6M-lm-3II" firstAttribute="top" secondItem="TKy-Ps-2Jx" secondAttribute="top" id="7G3-LO-vvW"/>
+                                    <constraint firstItem="8ql-Y0-4tw" firstAttribute="leading" secondItem="h6M-lm-3II" secondAttribute="trailing" id="A5k-jJ-e6N"/>
+                                    <constraint firstItem="ySx-lg-Gco" firstAttribute="leading" secondItem="8ql-Y0-4tw" secondAttribute="trailing" id="BjQ-9b-X8G"/>
+                                    <constraint firstItem="8ql-Y0-4tw" firstAttribute="height" secondItem="WXo-Ce-tOp" secondAttribute="height" id="CIR-lI-wmO"/>
+                                    <constraint firstItem="ySx-lg-Gco" firstAttribute="width" secondItem="WXo-Ce-tOp" secondAttribute="width" id="DCT-ew-voY"/>
+                                    <constraint firstItem="h6M-lm-3II" firstAttribute="leading" secondItem="WXo-Ce-tOp" secondAttribute="trailing" id="GeX-m4-nVg"/>
+                                    <constraint firstAttribute="bottom" secondItem="ySx-lg-Gco" secondAttribute="bottom" id="J7G-sJ-eoN"/>
+                                    <constraint firstItem="WXo-Ce-tOp" firstAttribute="leading" secondItem="TKy-Ps-2Jx" secondAttribute="leading" id="NhH-do-pcn"/>
+                                    <constraint firstItem="h6M-lm-3II" firstAttribute="width" secondItem="WXo-Ce-tOp" secondAttribute="width" id="Nka-df-B6x"/>
+                                    <constraint firstItem="8ql-Y0-4tw" firstAttribute="leading" secondItem="h6M-lm-3II" secondAttribute="trailing" id="Oft-2E-ksG"/>
+                                    <constraint firstAttribute="bottom" secondItem="h6M-lm-3II" secondAttribute="bottom" id="Rz7-fr-D8n"/>
+                                    <constraint firstItem="h6M-lm-3II" firstAttribute="leading" secondItem="WXo-Ce-tOp" secondAttribute="trailing" id="X3x-3B-ld5"/>
+                                    <constraint firstItem="ySx-lg-Gco" firstAttribute="height" secondItem="WXo-Ce-tOp" secondAttribute="height" id="XfA-us-7j4"/>
+                                    <constraint firstAttribute="bottom" secondItem="8ql-Y0-4tw" secondAttribute="bottom" id="fNw-CX-eow"/>
+                                    <constraint firstItem="ySx-lg-Gco" firstAttribute="top" secondItem="TKy-Ps-2Jx" secondAttribute="top" id="gTf-E6-vu2"/>
+                                    <constraint firstItem="WXo-Ce-tOp" firstAttribute="top" secondItem="TKy-Ps-2Jx" secondAttribute="top" id="gcs-4B-jJN"/>
+                                    <constraint firstAttribute="trailing" secondItem="ySx-lg-Gco" secondAttribute="trailing" id="qck-LU-QcI"/>
+                                    <constraint firstItem="ySx-lg-Gco" firstAttribute="leading" secondItem="8ql-Y0-4tw" secondAttribute="trailing" id="yVp-vb-wu0"/>
+                                    <constraint firstAttribute="bottom" secondItem="WXo-Ce-tOp" secondAttribute="bottom" id="yah-l8-DQw"/>
+                                    <constraint firstItem="8ql-Y0-4tw" firstAttribute="top" secondItem="TKy-Ps-2Jx" secondAttribute="top" id="ybK-hI-R9C"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="DZk-26-Anw" secondAttribute="trailing" constant="-16" id="4vB-Qc-QnE"/>
+                            <constraint firstItem="DZk-26-Anw" firstAttribute="leading" secondItem="SLE-5t-Y4U" secondAttribute="leadingMargin" constant="-16" id="5Pd-HR-45S"/>
+                            <constraint firstItem="TKy-Ps-2Jx" firstAttribute="leading" secondItem="SLE-5t-Y4U" secondAttribute="leading" id="FtT-uA-xrp"/>
+                            <constraint firstItem="DZk-26-Anw" firstAttribute="top" secondItem="L8z-vk-QUS" secondAttribute="bottom" id="VBW-ak-D11"/>
+                            <constraint firstItem="TKy-Ps-2Jx" firstAttribute="top" secondItem="DZk-26-Anw" secondAttribute="bottom" id="W2I-dm-5bj"/>
+                            <constraint firstItem="8qw-oO-ZyG" firstAttribute="top" secondItem="TKy-Ps-2Jx" secondAttribute="bottom" id="Zb2-2f-wJ9"/>
+                            <constraint firstAttribute="trailing" secondItem="TKy-Ps-2Jx" secondAttribute="trailing" id="bgW-HQ-eKI"/>
+                            <constraint firstItem="8qw-oO-ZyG" firstAttribute="top" secondItem="DZk-26-Anw" secondAttribute="bottom" constant="49" id="lnY-mJ-iuR"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="9pZ-4z-uiT">
+                        <barButtonItem key="rightBarButtonItem" title="🔍" id="ulF-fb-btr">
+                            <connections>
+                                <action selector="findAction:" destination="XVE-lr-eEd" id="oJD-BA-o2y"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="barUIView" destination="TKy-Ps-2Jx" id="5U6-qP-GS0"/>
+                        <outlet property="gengduopaixu" destination="ySx-lg-Gco" id="Ygd-B2-XwO"/>
+                        <outlet property="homeTableView" destination="DZk-26-Anw" id="14m-CE-qN1"/>
+                        <outlet property="jinqian" destination="h6M-lm-3II" id="9XP-Zx-z00"/>
+                        <outlet property="shaixuan" destination="WXo-Ce-tOp" id="buI-FT-lfE"/>
+                        <outlet property="shijian" destination="8ql-Y0-4tw" id="6h0-VC-vgH"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hhZ-NK-V6B" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="302" y="-677"/>
+        </scene>
+        <!--Navigation View Controller-->
+        <scene sceneID="xKd-s8-ET4">
+            <objects>
+                <navigationController storyboardIdentifier="BWNavigationViewController" id="19V-DA-sJe" customClass="BWNavigationViewController" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ecD-88-320">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="XVE-lr-eEd" kind="relationship" relationship="rootViewController" id="JSI-Cz-juO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p4c-zC-bCh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-436" y="-644"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ic_filter_active.png" width="30" height="30"/>
+        <image name="ic_filter_normal.png" width="30" height="30"/>
+        <image name="ic_money_active.png" width="30" height="30"/>
+        <image name="ic_money_normal.png" width="30" height="30"/>
+        <image name="ic_more_active.png" width="30" height="30"/>
+        <image name="ic_more_normal.png" width="30" height="30"/>
+        <image name="ic_time_activel.png" width="30" height="30"/>
+        <image name="ic_time_normal.png" width="30" height="30"/>
+    </resources>
 </document>
