@@ -9,7 +9,7 @@
 #import "BWPhoneBindViewController.h"
 #import "phoneBindTableViewCell.h"
 #import "UIImage+Helper.h"
-#import "phoneBindTableViewCell.h"
+
 
 @interface BWPhoneBindViewController ()<UITableViewDataSource,UITableViewDelegate>
 
@@ -130,7 +130,7 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    phoneBindTableViewCell *cell = (phoneBindTableViewCell *)[tableView dequeueReusableCellWithIdentifier:@"phoneBindTableViewCell" forIndexPath:indexPath];
+    phoneBindTableViewCell *cell = (phoneBindTableViewCell *)[tableView dequeueReusableCellWithIdentifier:@"TableViewCell" ];
     
     cell.titleLable.textColor = [UIColor blackColor];
     cell.titleLable.font = [UIFont systemFontOfSize:14.f];
