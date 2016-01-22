@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Tradeshift. All rights reserved.
 //
 
-#import <JSONModel/JSONModel.h>
+#import "JSONModel/JSONModel.h"
 
 @interface JSONModel (SwizzleMap)
 

@@ -1,29 +1,26 @@
 //
-//  BWDetaileViewController.m
+//  BWdescriptionViewController.m
 //  百望电子发票
 //
-//  Created by baiwang on 16/1/19.
+//  Created by baiwang on 16/1/20.
 //  Copyright © 2016年 lixizhi. All rights reserved.
 //
 
-#import "BWDetaileViewController.h"
+#import "BWdescriptionViewController.h"
 
-@interface BWDetaileViewController ()
+@interface BWdescriptionViewController ()
 
 @end
 
-@implementation BWDetaileViewController
+@implementation BWdescriptionViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-        
 }
 
 
 
-- (IBAction)saveImageAction:(id)sender {
-}
 - (IBAction)backAction:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
 }

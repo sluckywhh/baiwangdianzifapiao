@@ -12,5 +12,11 @@
 
 - (IBAction)saveImageAction:(id)sender;
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
+- (IBAction)backAction:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *titleLable;
+@property (weak, nonatomic) IBOutlet UIView *daohanglan;
+@property (weak, nonatomic) IBOutlet UIButton *back;
+@property (weak, nonatomic) IBOutlet UIButton *saveBtn;
+
 
 @end

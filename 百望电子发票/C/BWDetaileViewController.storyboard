@@ -17,6 +17,45 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K3t-DQ-9uH">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EQY-I4-zR6">
+                                        <rect key="frame" x="13" y="28" width="24" height="24"/>
+                                        <state key="normal" image="icon_back_normal.png"/>
+                                        <state key="highlighted" image="icon_back_active.png"/>
+                                        <connections>
+                                            <action selector="backAction:" destination="giS-dt-ggp" eventType="touchUpInside" id="zFh-8y-Bko"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RYK-eF-IaI">
+                                        <rect key="frame" x="548" y="28" width="44" height="28"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="Save">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="saveImageAction:" destination="giS-dt-ggp" eventType="touchUpInside" id="j7t-Hj-I2g"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="发票详情" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oy6-b4-wt7">
+                                        <rect key="frame" x="258" y="28" width="84" height="26"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.22872121710526275" green="0.54211352710526317" blue="0.90943667763157898" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="3eF-9i-ZAq"/>
+                                    <constraint firstItem="RYK-eF-IaI" firstAttribute="top" secondItem="K3t-DQ-9uH" secondAttribute="top" constant="28" id="3yI-4g-IAs"/>
+                                    <constraint firstItem="Oy6-b4-wt7" firstAttribute="top" secondItem="K3t-DQ-9uH" secondAttribute="top" constant="28" id="4eP-lI-EbY"/>
+                                    <constraint firstAttribute="trailing" secondItem="RYK-eF-IaI" secondAttribute="trailing" constant="8" id="Ohi-X9-E49"/>
+                                    <constraint firstItem="Oy6-b4-wt7" firstAttribute="centerX" secondItem="K3t-DQ-9uH" secondAttribute="centerX" id="cQr-IL-OJu"/>
+                                    <constraint firstItem="EQY-I4-zR6" firstAttribute="leading" secondItem="K3t-DQ-9uH" secondAttribute="leading" constant="13" id="uHi-hd-eKC"/>
+                                    <constraint firstItem="EQY-I4-zR6" firstAttribute="top" secondItem="K3t-DQ-9uH" secondAttribute="top" constant="28" id="xD0-nZ-wqQ"/>
+                                </constraints>
+                            </view>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yge-02-BRd">
                                 <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
@@ -24,26 +63,36 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="Yge-02-BRd" firstAttribute="top" secondItem="K3t-DQ-9uH" secondAttribute="bottom" id="3ip-Eh-h3N"/>
                             <constraint firstItem="ete-AR-mFh" firstAttribute="top" secondItem="Yge-02-BRd" secondAttribute="bottom" id="I3f-fU-Jca"/>
+                            <constraint firstItem="K3t-DQ-9uH" firstAttribute="top" secondItem="esv-r5-2Op" secondAttribute="top" id="P87-yg-TTF"/>
+                            <constraint firstAttribute="trailing" secondItem="K3t-DQ-9uH" secondAttribute="trailing" id="Qgd-6m-eTR"/>
                             <constraint firstAttribute="trailing" secondItem="Yge-02-BRd" secondAttribute="trailing" id="YBD-XU-Ewj"/>
                             <constraint firstItem="Yge-02-BRd" firstAttribute="top" secondItem="aug-vV-bQj" secondAttribute="bottom" id="exd-of-BX1"/>
                             <constraint firstItem="Yge-02-BRd" firstAttribute="leading" secondItem="esv-r5-2Op" secondAttribute="leading" id="kJy-5m-lVh"/>
+                            <constraint firstItem="K3t-DQ-9uH" firstAttribute="leading" secondItem="esv-r5-2Op" secondAttribute="leading" id="xIo-J1-h8F"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="exd-of-BX1"/>
+                            </mask>
+                        </variation>
                     </view>
-                    <navigationItem key="navigationItem" id="f29-fI-mhe">
-                        <barButtonItem key="rightBarButtonItem" title="Save" id="14n-OG-rfI">
-                            <connections>
-                                <action selector="saveImageAction:" destination="giS-dt-ggp" id="X6M-oS-Uzg"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
                     <connections>
+                        <outlet property="back" destination="EQY-I4-zR6" id="8sV-P8-8bf"/>
+                        <outlet property="daohanglan" destination="K3t-DQ-9uH" id="KPQ-WF-mYb"/>
+                        <outlet property="saveBtn" destination="RYK-eF-IaI" id="eub-Q3-IOJ"/>
+                        <outlet property="titleLable" destination="Oy6-b4-wt7" id="7PR-EH-voh"/>
                         <outlet property="webView" destination="Yge-02-BRd" id="FTD-Y4-cZ5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H7N-SG-yCs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="729" y="362"/>
+            <point key="canvasLocation" x="730" y="351"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icon_back_active.png" width="24" height="24"/>
+        <image name="icon_back_normal.png" width="24" height="24"/>
+    </resources>
 </document>

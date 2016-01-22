@@ -12,6 +12,8 @@
 - (IBAction)findAction:(id)sender;
 @property (weak, nonatomic) IBOutlet UITableView *homeTableView;
 @property (weak, nonatomic) IBOutlet UIView *barUIView;
+//@property (weak, nonatomic) IBOutlet UIBarButtonItem *ce;
+//- (IBAction)cehua:(id)sender;
 
 
 - (IBAction)shaixuanAction:(id)sender;
