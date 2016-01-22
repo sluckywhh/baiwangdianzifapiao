@@ -11,11 +11,20 @@
 #import "BWSearchViewController.h"
 #import "BWSettingViewController.h"
 #import "REFrostedViewController.h"
+#import "BWFilterDetailViewController.h"
+#import "BWSortDeatilViewController.h"
+#import "Header.h"
+#import "BWFilterDetailViewController.h"
+#import "BWSortDeatilViewController.h"
+#import "UIView+Common.h"
 
 
-@interface BWHomeViewController ()
+@interface BWHomeViewController ()<BWFilterDetailViewControllerDelegate>
 
 @property (strong, nonatomic) UIButton *settingBtn;
+@property (nonatomic, strong) BWFilterDetailViewController *filterVC;
+@property (nonatomic, strong) BWSortDeatilViewController *sortVC;
+
 @end
 
 @implementation BWHomeViewController
@@ -42,7 +51,9 @@
     self.navigationItem.leftBarButtonItem = settingBtn;
     self.settingBtn = leftBtn;
     
-    
+    self.filterVC = STORYBOARD(@"BWFilterDetailViewController");
+    [self addChildViewController:self.filterVC];
+    self.filterVC.delegate = self;
 }
 
 - (void)settingAction:(UIButton*)sender{
@@ -69,6 +80,12 @@
     self.shijian.selected = NO;
     self.gengduopaixu.selected = NO;
     
+    self.filterVC.view.top = self.view.bottom;
+    self.filterVC.view.height = self.view.height;
+    [self.view addSubview:self.filterVC.view];
+    [UIView animateWithDuration:0.3 animations:^{
+        self.filterVC.view.top = self.view.top;
+    }];
 }
 
 - (IBAction)jinqianAction:(UIButton*)sender {
@@ -100,5 +117,22 @@
     btn.imageEdgeInsets = UIEdgeInsetsMake(- (titleSize.height + spacing), 0.0, 0.0, - titleSize.width);
 }
 
+#pragma mark - TSSortListViewControllerDelegate
+
+- (void)dismissFilter:(BWFilterDetailViewController *)filterVC{
+    [UIView animateWithDuration:0.3 animations:^{
+        self.filterVC.view.top = self.view.bottom;
+    } completion:^(BOOL finished) {
+        [self.filterVC.view removeFromSuperview];
+    }];
+}
+
+- (void) filterVC:(BWFilterDetailViewController *)filterVC didSelectFilter:(NSDictionary *)filterDict dateDict:(NSDictionary *)dateDict{
+    
+}
+
+- (void)removeAllFilterInFilterVC:(BWFilterDetailViewController *)filterVC{
+
+}
 
 @end

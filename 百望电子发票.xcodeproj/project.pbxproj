@@ -122,6 +122,10 @@
 		B184543B1C4DE95B003D71F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B18454391C4DE95B003D71F7 /* LaunchScreen.storyboard */; };
 		B18454461C4DE95B003D71F7 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B18454451C4DE95B003D71F7 /* ______Tests.m */; };
 		B18454511C4DE95B003D71F7 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B18454501C4DE95B003D71F7 /* ______UITests.m */; };
+		B1EE3D131C51D4DB0062D433 /* BWFilterDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EE3D121C51D4DB0062D433 /* BWFilterDetailViewController.m */; };
+		B1EE3D161C51D4F20062D433 /* BWSortDeatilViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EE3D151C51D4F20062D433 /* BWSortDeatilViewController.m */; };
+		B1EE3D181C51F20A0062D433 /* BWFilterDetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1EE3D171C51F20A0062D433 /* BWFilterDetailViewController.storyboard */; };
+		B1EE3D1E1C5201670062D433 /* filterDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EE3D1D1C5201670062D433 /* filterDetailTableViewCell.m */; };
 		B1F11CC21C5073090032B216 /* BWAccountSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F11CC11C5073090032B216 /* BWAccountSettingViewController.m */; };
 		B1F11CC41C5073200032B216 /* BWAccountSettingViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1F11CC31C5073200032B216 /* BWAccountSettingViewController.storyboard */; };
 		B1F11CC71C5079D90032B216 /* BWSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F11CC61C5079D90032B216 /* BWSegmentControl.m */; };
@@ -263,8 +267,8 @@
 		B15E4BE71C4DEBDA00BC5732 /* YIPopupTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YIPopupTextView.m; sourceTree = "<group>"; };
 		B15E4BE81C4DEBDA00BC5732 /* YISSTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YISSTextView.h; sourceTree = "<group>"; };
 		B15E4BE91C4DEBDA00BC5732 /* YISSTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YISSTextView.m; sourceTree = "<group>"; };
-		B15E4C191C4E02E400BC5732 /* BWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWHomeViewController.h; sourceTree = "<group>"; };
-		B15E4C1A1C4E02E400BC5732 /* BWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWHomeViewController.m; sourceTree = "<group>"; };
+		B15E4C191C4E02E400BC5732 /* BWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BWHomeViewController.h; path = ../BWHomeViewController.h; sourceTree = "<group>"; };
+		B15E4C1A1C4E02E400BC5732 /* BWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BWHomeViewController.m; path = ../BWHomeViewController.m; sourceTree = "<group>"; };
 		B15E4C1E1C4E110000BC5732 /* 120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 120.png; path = ../120.png; sourceTree = "<group>"; };
 		B15E4C221C4E110B00BC5732 /* btn_style1_active@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "btn_style1_active@2x.png"; path = "../btn_style1_active@2x.png"; sourceTree = "<group>"; };
 		B15E4C241C4E111200BC5732 /* btn_style1_disable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "btn_style1_disable@2x.png"; path = "../btn_style1_disable@2x.png"; sourceTree = "<group>"; };
@@ -307,15 +311,15 @@
 		B15E4C6F1C4E16A100BC5732 /* ic_money_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_money_normal.png; sourceTree = "<group>"; };
 		B15E4C711C4E16AE00BC5732 /* ic_more_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_more_normal.png; sourceTree = "<group>"; };
 		B15E4C731C4E16BD00BC5732 /* ic_time_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_time_normal.png; sourceTree = "<group>"; };
-		B15E4C751C4E1F3A00BC5732 /* BWSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWSearchViewController.h; sourceTree = "<group>"; };
-		B15E4C761C4E1F3A00BC5732 /* BWSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWSearchViewController.m; sourceTree = "<group>"; };
-		B15E4C781C4E1F4D00BC5732 /* BWSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWSettingViewController.h; sourceTree = "<group>"; };
-		B15E4C791C4E1F4D00BC5732 /* BWSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWSettingViewController.m; sourceTree = "<group>"; };
-		B15E4C7B1C4E1F6800BC5732 /* BWDetaileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWDetaileViewController.h; sourceTree = "<group>"; };
-		B15E4C7C1C4E1F6800BC5732 /* BWDetaileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWDetaileViewController.m; sourceTree = "<group>"; };
-		B15E4C7E1C4E1FA300BC5732 /* BWSearchViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BWSearchViewController.storyboard; sourceTree = "<group>"; };
-		B15E4C801C4E1FB500BC5732 /* BWSettingViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BWSettingViewController.storyboard; sourceTree = "<group>"; };
-		B15E4C821C4E200000BC5732 /* BWDetaileViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BWDetaileViewController.storyboard; sourceTree = "<group>"; };
+		B15E4C751C4E1F3A00BC5732 /* BWSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BWSearchViewController.h; path = ../BWSearchViewController.h; sourceTree = "<group>"; };
+		B15E4C761C4E1F3A00BC5732 /* BWSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BWSearchViewController.m; path = ../BWSearchViewController.m; sourceTree = "<group>"; };
+		B15E4C781C4E1F4D00BC5732 /* BWSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BWSettingViewController.h; path = ../BWSettingViewController.h; sourceTree = "<group>"; };
+		B15E4C791C4E1F4D00BC5732 /* BWSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BWSettingViewController.m; path = ../BWSettingViewController.m; sourceTree = "<group>"; };
+		B15E4C7B1C4E1F6800BC5732 /* BWDetaileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BWDetaileViewController.h; path = ../BWDetaileViewController.h; sourceTree = "<group>"; };
+		B15E4C7C1C4E1F6800BC5732 /* BWDetaileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BWDetaileViewController.m; path = ../BWDetaileViewController.m; sourceTree = "<group>"; };
+		B15E4C7E1C4E1FA300BC5732 /* BWSearchViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = BWSearchViewController.storyboard; path = ../BWSearchViewController.storyboard; sourceTree = "<group>"; };
+		B15E4C801C4E1FB500BC5732 /* BWSettingViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = BWSettingViewController.storyboard; path = ../BWSettingViewController.storyboard; sourceTree = "<group>"; };
+		B15E4C821C4E200000BC5732 /* BWDetaileViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = BWDetaileViewController.storyboard; path = ../BWDetaileViewController.storyboard; sourceTree = "<group>"; };
 		B15E4C841C4E229500BC5732 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		B15E4C851C4E22AA00BC5732 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		B15E4C861C4F290200BC5732 /* numberPhoneTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = numberPhoneTableViewCell.h; sourceTree = "<group>"; };
@@ -326,9 +330,9 @@
 		B15E4C8D1C4F299600BC5732 /* pushTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pushTableViewCell.m; sourceTree = "<group>"; };
 		B15E4CB01C4F8FF100BC5732 /* DEMONavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMONavigationController.h; sourceTree = "<group>"; };
 		B15E4CB11C4F8FF100BC5732 /* DEMONavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMONavigationController.m; sourceTree = "<group>"; };
-		B15E4CB31C4F96A200BC5732 /* BWdescriptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWdescriptionViewController.h; sourceTree = "<group>"; };
-		B15E4CB41C4F96A200BC5732 /* BWdescriptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWdescriptionViewController.m; sourceTree = "<group>"; };
-		B15E4CB61C4F96C000BC5732 /* BWdescriptionViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BWdescriptionViewController.storyboard; sourceTree = "<group>"; };
+		B15E4CB31C4F96A200BC5732 /* BWdescriptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BWdescriptionViewController.h; path = ../BWdescriptionViewController.h; sourceTree = "<group>"; };
+		B15E4CB41C4F96A200BC5732 /* BWdescriptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BWdescriptionViewController.m; path = ../BWdescriptionViewController.m; sourceTree = "<group>"; };
+		B15E4CB61C4F96C000BC5732 /* BWdescriptionViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = BWdescriptionViewController.storyboard; path = ../BWdescriptionViewController.storyboard; sourceTree = "<group>"; };
 		B18454281C4DE95B003D71F7 /* 百望电子发票.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百望电子发票.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B184542C1C4DE95B003D71F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B184542E1C4DE95B003D71F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -343,6 +347,13 @@
 		B184544C1C4DE95B003D71F7 /* 百望电子发票UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百望电子发票UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B18454501C4DE95B003D71F7 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
 		B18454521C4DE95B003D71F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1EE3D111C51D4DB0062D433 /* BWFilterDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWFilterDetailViewController.h; sourceTree = "<group>"; };
+		B1EE3D121C51D4DB0062D433 /* BWFilterDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWFilterDetailViewController.m; sourceTree = "<group>"; };
+		B1EE3D141C51D4F20062D433 /* BWSortDeatilViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWSortDeatilViewController.h; sourceTree = "<group>"; };
+		B1EE3D151C51D4F20062D433 /* BWSortDeatilViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWSortDeatilViewController.m; sourceTree = "<group>"; };
+		B1EE3D171C51F20A0062D433 /* BWFilterDetailViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BWFilterDetailViewController.storyboard; sourceTree = "<group>"; };
+		B1EE3D1C1C5201670062D433 /* filterDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = filterDetailTableViewCell.h; sourceTree = "<group>"; };
+		B1EE3D1D1C5201670062D433 /* filterDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = filterDetailTableViewCell.m; sourceTree = "<group>"; };
 		B1F11CC01C5073090032B216 /* BWAccountSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BWAccountSettingViewController.h; path = ../BWAccountSettingViewController.h; sourceTree = "<group>"; };
 		B1F11CC11C5073090032B216 /* BWAccountSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BWAccountSettingViewController.m; path = ../BWAccountSettingViewController.m; sourceTree = "<group>"; };
 		B1F11CC31C5073200032B216 /* BWAccountSettingViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = BWAccountSettingViewController.storyboard; path = ../BWAccountSettingViewController.storyboard; sourceTree = "<group>"; };
@@ -668,23 +679,10 @@
 		B15E4C161C4E026000BC5732 /* C */ = {
 			isa = PBXGroup;
 			children = (
+				B1EE3D101C51CEE00062D433 /* Filter */,
+				B1EE3D0F1C51CEC20062D433 /* Home */,
 				B1EE3D0E1C51CBE10062D433 /* 设置 */,
 				B15E4CA21C4F4FA900BC5732 /* 侧滑 */,
-				B15E4C191C4E02E400BC5732 /* BWHomeViewController.h */,
-				B15E4C1A1C4E02E400BC5732 /* BWHomeViewController.m */,
-				B18454341C4DE95B003D71F7 /* Main.storyboard */,
-				B15E4C751C4E1F3A00BC5732 /* BWSearchViewController.h */,
-				B15E4C761C4E1F3A00BC5732 /* BWSearchViewController.m */,
-				B15E4C7E1C4E1FA300BC5732 /* BWSearchViewController.storyboard */,
-				B15E4C781C4E1F4D00BC5732 /* BWSettingViewController.h */,
-				B15E4C791C4E1F4D00BC5732 /* BWSettingViewController.m */,
-				B15E4C801C4E1FB500BC5732 /* BWSettingViewController.storyboard */,
-				B15E4C7B1C4E1F6800BC5732 /* BWDetaileViewController.h */,
-				B15E4C7C1C4E1F6800BC5732 /* BWDetaileViewController.m */,
-				B15E4C821C4E200000BC5732 /* BWDetaileViewController.storyboard */,
-				B15E4CB31C4F96A200BC5732 /* BWdescriptionViewController.h */,
-				B15E4CB41C4F96A200BC5732 /* BWdescriptionViewController.m */,
-				B15E4CB61C4F96C000BC5732 /* BWdescriptionViewController.storyboard */,
 			);
 			path = C;
 			sourceTree = "<group>";
@@ -709,6 +707,8 @@
 				B1F11CC61C5079D90032B216 /* BWSegmentControl.m */,
 				B1F4AC261C50D74300D400C4 /* phoneBindTableViewCell.h */,
 				B1F4AC271C50D74300D400C4 /* phoneBindTableViewCell.m */,
+				B1EE3D1C1C5201670062D433 /* filterDetailTableViewCell.h */,
+				B1EE3D1D1C5201670062D433 /* filterDetailTableViewCell.m */,
 			);
 			path = V;
 			sourceTree = "<group>";
@@ -882,6 +882,40 @@
 			path = "设置";
 			sourceTree = "<group>";
 		};
+		B1EE3D0F1C51CEC20062D433 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B15E4C191C4E02E400BC5732 /* BWHomeViewController.h */,
+				B15E4C1A1C4E02E400BC5732 /* BWHomeViewController.m */,
+				B18454341C4DE95B003D71F7 /* Main.storyboard */,
+				B15E4C751C4E1F3A00BC5732 /* BWSearchViewController.h */,
+				B15E4C761C4E1F3A00BC5732 /* BWSearchViewController.m */,
+				B15E4C7E1C4E1FA300BC5732 /* BWSearchViewController.storyboard */,
+				B15E4C781C4E1F4D00BC5732 /* BWSettingViewController.h */,
+				B15E4C791C4E1F4D00BC5732 /* BWSettingViewController.m */,
+				B15E4C801C4E1FB500BC5732 /* BWSettingViewController.storyboard */,
+				B15E4C7B1C4E1F6800BC5732 /* BWDetaileViewController.h */,
+				B15E4C7C1C4E1F6800BC5732 /* BWDetaileViewController.m */,
+				B15E4C821C4E200000BC5732 /* BWDetaileViewController.storyboard */,
+				B15E4CB31C4F96A200BC5732 /* BWdescriptionViewController.h */,
+				B15E4CB41C4F96A200BC5732 /* BWdescriptionViewController.m */,
+				B15E4CB61C4F96C000BC5732 /* BWdescriptionViewController.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B1EE3D101C51CEE00062D433 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				B1EE3D111C51D4DB0062D433 /* BWFilterDetailViewController.h */,
+				B1EE3D121C51D4DB0062D433 /* BWFilterDetailViewController.m */,
+				B1EE3D171C51F20A0062D433 /* BWFilterDetailViewController.storyboard */,
+				B1EE3D141C51D4F20062D433 /* BWSortDeatilViewController.h */,
+				B1EE3D151C51D4F20062D433 /* BWSortDeatilViewController.m */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
 		D33FFFA0D28A1C03DF40EAFE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -1024,6 +1058,7 @@
 				B15E4C811C4E1FB500BC5732 /* BWSettingViewController.storyboard in Resources */,
 				B18454361C4DE95B003D71F7 /* Main.storyboard in Resources */,
 				B15E4C371C4E115000BC5732 /* icon_ancor@2x.png in Resources */,
+				B1EE3D181C51F20A0062D433 /* BWFilterDetailViewController.storyboard in Resources */,
 				B15E4C491C4E118E00BC5732 /* icon_passwordoff_white@2x.png in Resources */,
 				B15E4C4F1C4E11A200BC5732 /* icon_passwordon@2x.png in Resources */,
 				B15E4C4D1C4E119A00BC5732 /* icon_passwordon_white@2x.png in Resources */,
@@ -1144,10 +1179,12 @@
 				B15E4C101C4DEBDA00BC5732 /* MMMaterialDesignSpinner.m in Sources */,
 				B15E4C0F1C4DEBDA00BC5732 /* DeformationButton.m in Sources */,
 				B15E4CB21C4F8FF100BC5732 /* DEMONavigationController.m in Sources */,
+				B1EE3D161C51D4F20062D433 /* BWSortDeatilViewController.m in Sources */,
 				9D8794191C4F7F26005E08F5 /* UIImage+REFrostedViewController.m in Sources */,
 				B15E4C061C4DEBDA00BC5732 /* SingtonManager.m in Sources */,
 				B15E4C011C4DEBDA00BC5732 /* UIViewController+KNSemiModal.m in Sources */,
 				B15E4C151C4DEBDA00BC5732 /* YISSTextView.m in Sources */,
+				B1EE3D131C51D4DB0062D433 /* BWFilterDetailViewController.m in Sources */,
 				9D8794161C4F7F26005E08F5 /* RECommonFunctions.m in Sources */,
 				B1F11CCA1C507A8C0032B216 /* BWChangePhoneTableViewController.m in Sources */,
 				B1F4AC281C50D74300D400C4 /* phoneBindTableViewCell.m in Sources */,
@@ -1162,6 +1199,7 @@
 				B15E4C131C4DEBDA00BC5732 /* TSPlaceHolderTextView.m in Sources */,
 				B15E4BFD1C4DEBDA00BC5732 /* UITextField+Helper.m in Sources */,
 				B15E4BFB1C4DEBDA00BC5732 /* UIControl+Blocks.m in Sources */,
+				B1EE3D1E1C5201670062D433 /* filterDetailTableViewCell.m in Sources */,
 				B15E4BF61C4DEBDA00BC5732 /* UIButton+AccessValueBinding.m in Sources */,
 				9D87941E1C4F846D005E08F5 /* DEMORootViewController.m in Sources */,
 				B15E4BEC1C4DEBDA00BC5732 /* JSONValueTransformer+DateConvert.m in Sources */,
@@ -1232,7 +1270,7 @@
 				B18454351C4DE95B003D71F7 /* Base */,
 			);
 			name = Main.storyboard;
-			path = ..;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		B18454391C4DE95B003D71F7 /* LaunchScreen.storyboard */ = {
@@ -1333,7 +1371,8 @@
 			baseConfigurationReference = B83CEB5844FA5ECB09BFC369 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREFIX_HEADER = "/Users/baiwang/Downloads/百望电子发票/百望电子发票/PrefixHeader.pch";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/百望电子发票/PrefixHeader.pch";
 				INFOPLIST_FILE = "百望电子发票/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.baiwang.------";
@@ -1347,7 +1386,8 @@
 			baseConfigurationReference = 66E8121B4C7CE0CF2ED8FB3A /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREFIX_HEADER = "/Users/baiwang/Downloads/百望电子发票/百望电子发票/PrefixHeader.pch";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/百望电子发票/PrefixHeader.pch";
 				INFOPLIST_FILE = "百望电子发票/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.baiwang.------";
